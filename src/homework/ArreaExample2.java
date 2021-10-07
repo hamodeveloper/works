@@ -1,14 +1,12 @@
 package homework;
 
-public class ArreaExample {
-
-    /*
-     *
-     * *
-     * * *
-     * * * *
-     * * * * *
-     */
+public class ArreaExample2 {
+/*
+  * * * *
+  * * *
+  * *
+  *
+ */
 
     public static void main(String[] args) {
         char a = 42;
@@ -30,32 +28,5 @@ public class ArreaExample {
         System.out.println("*");
     }
 
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

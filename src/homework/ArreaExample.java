@@ -1,7 +1,5 @@
 package homework;
 
-import com.sun.org.apache.xpath.internal.objects.XBoolean;
-
 public class ArreaExample {
 
     /*
@@ -14,28 +12,30 @@ public class ArreaExample {
 
     public static void main(String[] args) {
 
-char a = 42;
-        System.out.println("*");
-for (char i = 42; i < 43; i++) {
+        char a = 42;
 
-    System.out.println(a + " *");
-
-}
-        for (char j = 42; j < 43; j++) {
-            System.out.println(a + " * *");
-        }
-        for (char j = 42; j < 43; j++) {
-            System.out.println(a + " * * *");
-        }
-        for (char j = 42; j < 43; j++) {
-            System.out.println(a + " * * * *");
-        }
-
-
-        System.out.println();
-                    }
-
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(a + " ");
             }
+            System.out.println(" ");
+        }
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

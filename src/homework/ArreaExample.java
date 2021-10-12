@@ -11,7 +11,10 @@ public class ArreaExample {
      */
 
     public static void main(String[] args) {
-/*
+
+
+
+        /*
         for (int i = 4; i >=0 ; i--) {
             for (int j = i; j <=4 ; j++) {
                 System.out.print(" *");
@@ -61,8 +64,22 @@ public class ArreaExample {
         }
 */
 
+/*   * * * *
+       * * *
+         * *
+           *
+ */
 
+        for (int j = 3; j >= 0; j--) {
+            for (int k = 4; k > j; k--) {
+                System.out.print("  ");
+            }
+            for (int k = 0; k <= j; k++) {
+                System.out.print(" *");
+            }
 
+            System.out.println();
+        }
 
 
 

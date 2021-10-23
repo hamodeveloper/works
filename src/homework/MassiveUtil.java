@@ -66,14 +66,24 @@ public class MassiveUtil {
 //
 //        }
 
-        char[] text = {' ', ' ', ' ', 'b', 'a', 'r', 'e', 'v', ' '};
-        for (int i = 0; i < text.length; i++) {
-            char c = text[i];
-            if (c != ' ') {
-                System.out.print(text[i]);
+        char[] text = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'b', 'a', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'r', 'e', 'v', ' '};
+        char[] result = new char[5];
+        int count = 1;
+        for (int j = 0; j < result.length; j++) {
+            for (int i = 0; i < text.length; i++) {
+                char c = text[i];
+                if (c != ' ') {
+                    count++;
+                    if (count < 7) {
+                        result[j] = text[i];
+                        System.out.print(result[j]);
+                    }
+
+                }
+
+
             }
         }
-
 
 
     }
